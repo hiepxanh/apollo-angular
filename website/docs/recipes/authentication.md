@@ -158,7 +158,7 @@ constructor(private apollo: Apollo) {}
     // some app logic
 
     // reset the store after that
-    this.apollo.getClient().resetStore();
+    this.apollo.client.clearStore();
   }
 }
 
